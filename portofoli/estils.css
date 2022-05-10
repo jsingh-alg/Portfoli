@@ -1,0 +1,31 @@
+body{
+  background-color: lightsalmon;
+}
+
+#cabecera{
+  width:auto;
+  height: 100px;
+  background-color: lightgreen;
+}
+
+#contenedor{
+  margin: 0 auto;
+  background-color: lightblue;
+  width: 900px;
+  height: 700px;
+
+}
+
+p{
+  font-size: 40px;
+  line-height: 200px;
+  margin-left: 100px;
+}
+.boletes{
+  width: 200px;
+  height: 200px;
+  background-color: lightcoral;
+  border-radius: 50%;
+  float:left;
+  margin: 10px;
+}
