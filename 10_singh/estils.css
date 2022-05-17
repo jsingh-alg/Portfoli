@@ -1,0 +1,182 @@
+body{
+  background-color: lightgreen;
+}
+.caja {
+  height: 500px;
+  width: 400px;
+  background-color: #DFA64C;
+  border-radius: 51% 49% 51% 49% / 38% 37% 63% 62%;
+  margin: 250px auto;
+}
+.ojo{
+  height: 70px;
+  width: 95px;
+  background-color: white;
+  border-radius: 50%;
+  margin: 0 auto;
+  top: 140px;
+  left: 0px;
+  display: inline-block;
+  position: relative;
+}
+#ojoizq{
+  left: 80px;
+
+}
+#ojoder{
+  left:120px;
+}
+.ceja1{
+  clip-path: polygon(57% 11%, 81% 15%, 100% 20%, 100% 37%, 100% 30%, 78% 23%, 55% 19%, 34% 22%, 0 33%, 30% 15%);
+   width:110px;
+   height:180px;
+   background-color: black;
+   position: relative;
+   bottom: 35px;
+   left:-12px;
+}
+.ceja2{
+   clip-path: polygon(50% 20%, 70% 22%, 85% 29%, 100% 47%, 69% 28%, 49% 28%, 27% 32%, 5% 40%, 8% 27%, 26% 23%);
+   width:110px;
+   height:180px;
+   background-color:black;
+   position: relative;
+   bottom: 50px;
+   left:-10px;
+}
+.pupila1{
+  width:40px;
+  height:40px;
+  border-radius: 50%;
+  background-color: black;
+  position: relative;
+  bottom: 150px;
+  left:10px;
+}
+.pupila2{
+  width:40px;
+  height:40px;
+  border-radius: 50%;
+  background-color: black;
+  position: relative;
+  bottom: 150px;
+  left:10px;
+}
+.nariz{
+clip-path: polygon(49% 1%, 48% 39%, 100% 100%, 0% 100%);
+width: 150px;
+height: 160px;
+position: relative;
+background: #D39B53;
+top:-190px;
+left: 45px;
+}
+.mascarilla{
+  clip-path: polygon(50% 0%, 91% 25%, 100% 63%, 73% 94%, 30% 93%, 0 62%, 9% 25%);
+  width: 315px;
+  height: 280px;
+  position: relative;
+  background: black;
+  left:-40px;
+  bottom:280px;
+  z-index: 40;
+}
+.mas1{
+  clip-path: polygon(93% 0, 98% 5%, 13% 100%, 8% 94%);
+  width: 180px;
+  height: 135px;
+  position: relative;
+  background: black;
+  left:150px;
+  top:-590px;
+  z-index: 40;
+}
+.mas2{
+  clip-path: polygon(93% 0, 98% 5%, 13% 100%, 8% 94%);
+  width: 180px;
+  height: 135px;
+  position: relative;
+  background: black;
+  left:125px;
+  top:-610px;
+  z-index: 40;
+}
+.mas3{
+  clip-path: polygon(7% 0, 100% 93%, 95% 99%, 0 4%);
+  width: 180px;
+  height: 135px;
+  position: relative;
+  background: black;
+  left:-85px;
+  top:-850px;
+  z-index: 40;
+}
+.mas4{
+  clip-path: polygon(7% 0, 100% 93%, 95% 99%, 0 4%);
+  width: 180px;
+  height: 135px;
+  position: relative;
+  background: black;
+  left:-70px;
+  top:-890px;
+  z-index: 40;
+}
+.pp{
+  clip-path: polygon(6% 99%, 8% 88%, 9% 78%, 15% 66%, 26% 60%, 43% 57%, 58% 57%, 70% 61%, 83% 66%, 89% 79%, 91% 87%, 93% 100%, 99% 66%, 99% 54%, 96% 40%, 85% 34%, 74% 31%, 61% 30%, 43% 30%, 24% 31%, 11% 34%, 3% 47%, 0 63%, 2% 83%);
+  width: 445px;
+  height: 500px;
+  position: relative;
+  background: black;
+  left:-100px;
+  top:-1590px;
+
+}
+.barba{
+  clip-path: polygon(52% 61%, 97% 50%, 96% 56%, 93% 66%, 84% 83%, 53% 90%, 20% 84%, 13% 77%, 7% 64%, 4% 50%);
+  width: 425px;
+  height: 530px;
+  position: relative;
+  background: black;
+  left:-94px;
+  bottom: 1868px;
+  opacity: 0.4;
+}
+.cuello{
+  border-radius: 49% 51% 49% 51% / 5% 4% 96% 95%;
+  width: 250px;
+  height: 230px;
+  position: relative;
+  background-color:#DFA64C;
+  bottom: 2000px;
+  left: -10px;
+  z-index:10;
+}
+.camiseta{
+  clip-path: polygon(18% 49%, 78% 49%, 69% 100%, 27% 100%);
+  width: 900px;
+  height:1150px;
+  background-color: white;
+  position: relative;
+  top:-2705px;
+  left: -315px;
+  background-image: url(2pac.png);
+  background-position: 27% center;
+}
+.mga{
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  width: 170px;
+  height:150px;
+  background-color: white;
+  position: relative;
+  top:-3292px;
+  left: -275px;
+}
+.mga2{
+  clip-path: polygon(0 0, 74% 0, 100% 100%, 23% 100%);
+  width: 170px;
+  height:150px;
+  background-color: white;
+  position: relative;
+  top:-3442px;
+  left: 340px;
+}

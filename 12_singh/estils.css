@@ -1,0 +1,162 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #3B5976;
+}
+
+#suelo{
+  width:auto;
+  height: 300px;
+  background-color: lightgreen;
+  top: 780px;
+  position: relative;
+}
+
+#contenedor{
+  width:auto;
+  height: 505px;
+  background-color: #3B5976;
+  position: relative;
+  top: 80px;
+}
+
+#casa{
+  width:180px;
+  height: 160px;
+  background-color: #AF825D;
+  position: relative;
+  top: 345px;
+  left: 160px;
+
+
+}
+
+#techo{
+  width:180px;
+  height: 120px;
+  background-color: #FFCA6E;
+  position: relative;
+  bottom: 120px;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+
+
+}
+
+#puerta{
+  width:60px;
+  height: 100px;
+  background-color: #FFCA6E;
+  position: relative;
+  bottom: 60px;
+  left: 100px;
+}
+
+#ventana{
+  width:40px;
+  height: 40px;
+  background-color: #FFCA6E;
+  position: relative;
+  bottom: 160px;
+  left: 30px;
+}
+
+#sol{
+  width:300px;
+  height: 300px;
+  background-color: #E7E6DF;
+  clip-path: circle(50% at 50% 50%);
+  position: relative;
+  bottom:540px;
+  left: 1205px;
+}
+
+#montaña{
+  width:1300px;
+  height: 600px;
+  background-color: #AF9053;
+  clip-path: polygon(0% 100%, 1% 97%, 2% 90%, 3% 84%, 4% 79%, 5% 77%, 7% 69%, 8% 62%, 11% 56%, 12% 50%, 14% 45%, 18% 44%, 20% 42%, 25% 44%, 28% 50%, 29% 56%, 29% 65%, 30% 74%, 31% 84%, 33% 85%, 36% 83%, 38% 78%, 42% 74%, 46% 69%, 49% 69%, 54% 68%, 58% 62%, 62% 59%, 66% 60%, 71% 67%, 73% 76%, 76% 81%, 79% 83%, 81% 82%, 87% 82%, 92% 86%, 94% 93%, 97% 96%, 100% 100%);
+  position: relative;
+  bottom:1000px;
+  left: 200px;
+
+}
+
+#nube{
+  width:560px;
+  height: 400px;
+  background-color: white;
+  clip-path: polygon(11% 65%, 12% 61%, 15% 57%, 16% 55%, 18% 55%, 23% 56%, 25% 52%, 26% 50%, 29% 47%, 32% 44%, 35% 44%, 37% 47%, 39% 48%, 40% 52%, 41% 53%, 43% 53%, 46% 50%, 48% 54%, 50% 56%, 54% 57%, 56% 58%, 57% 60%, 58% 63%, 57% 67%, 56% 68%, 55% 69%, 53% 69%, 48% 69%, 45% 70%, 41% 74%, 36% 75%, 32% 74%, 29% 74%, 24% 72%, 20% 72%, 17% 73%, 14% 71%, 13% 70%, 10% 64%);
+  position: relative;
+  bottom:900px;
+  left: 200px;
+  position: relative;
+  bottom:1500px;
+  left: 100px;
+  animation: nube 5s infinite linear;
+
+}
+@keyframes nube {
+  0%{
+    transform: translateX(0px);
+  }
+  100%{
+    transform: translateX(600px);
+  }
+}
+
+#estrella{
+  width: 25px;
+  height: 25px;
+  position: relative;
+  background-color: white;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  bottom: 2000px;
+  animation-name: estrella;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(.5, 0, 1, 1);
+  animation-duration: 0.2s;
+  }
+
+@keyframes estrella {
+    from { opacity: 1.0; }
+    to { opacity: 0.0; }
+  }
+
+#tronco{
+  width: 5px;
+  height: 30px;
+  background-color: #32FF00;
+  position: relative;
+  top:-1455px;
+  left: 250px;
+}
+
+#cabeza{
+  border-radius: 50%;
+  height: 5px;
+  width: 5px;
+  background-color: red;
+  position: relative;
+  left: 250px;
+  top: -1490px;
+}
+#petalo{
+  height: 40px;
+  width: 40px;
+  background-color: pink;
+  clip-path: polygon(50% 0%, 80% 6%, 49% 51%, 100% 70%, 81% 93%, 49% 51%, 0% 70%, 0 44%, 50% 50%);
+  animation: petalo 1s infinite linear;
+  position: relative;
+  left: 2.5px;
+  top: 2.5px;
+}
+@keyframes petalo {
+  0%{
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100%{
+    transform: translate(-50%, -50%) rotate(360deg);
+  }

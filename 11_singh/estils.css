@@ -1,0 +1,81 @@
+body{
+  background: lightblue;
+}
+
+.contenedor{
+  width: auto;
+  height: 500px;
+  background-color: lightgreen;
+  margin: 0;
+}
+
+.tronco{
+  width: 10px;
+  height: 200px;
+  background-color: #378325;
+  position: relative;
+  top:300px;
+  left: 255px;
+  margin: 0 auto;
+}
+
+.cba{
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  background-color: brown;
+  position: relative;
+  left: 255px;
+  top: 90px;
+  margin: 0 auto;
+  animation: champu 1s infinite linear;
+}
+
+@keyframes champu {
+  0%{
+    transform: rotate(100%);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+.petalo{
+  height: 100px;
+  width: 70px;
+  background-color: #FF0057;
+  border-radius: 0% 100% 0% 100% / 16% 83% 17% 84%  ;
+  margin: 0 auto;
+}
+
+.petalo.uno{
+  position: relative;
+  bottom: 95px;
+  left: 15px;
+  border-radius: 82% 18% 84% 16% / 100% 0% 100% 0%  ;
+  margin: 0 auto;
+}
+
+.petalo.tres{
+  border-radius: 82% 18% 84% 16% / 100% 0% 100% 0%  ;
+  position: relative;
+  bottom: 185px;
+  right: 65px;
+  margin: 0 auto;
+}
+
+.petalo.dos{
+  border-radius: 0% 100% 0% 100% / 16% 83% 17% 84%  ;
+  position:relative;
+  bottom: 195px;
+  right: 65px;
+  margin: 0 auto;
+}
+
+.petalo.cuatro{
+  border-radius: 0% 100% 0% 100% / 16% 83% 17% 84%  ;
+  position: relative;
+  bottom: 285px;
+  left: 15px;
+  margin: 0 auto;
+}
